@@ -1,0 +1,19 @@
+<h1>{{heroeSeleccionado.nombre | uppercase}} <small class="text-muted">({{heroeSeleccionado.aparicion | date: 'y'}})</small></h1>
+<hr>
+<div class="row animated fadeIn">
+  <div class="col-md-4">
+    <img class="img-fluid" [src]="heroeSeleccionado.img" [alt]="heroeSeleccionado.nombre">
+    <br><br>
+    <a [routerLink]="['/heroe']" class="btn btn-outline-danger btn-block">Regresar</a>
+  </div>
+
+  <div class="col-md-8">
+    <h3>{{heroeSeleccionado.nombre}}</h3>
+    <hr>
+    <p>{{heroeSeleccionado.bio}}</p>
+    <div>
+      <img class="img-fluid" class="img-logo" *ngIf="heroeSeleccionado.casa == 'DC'" src="/assets/img/dc.png" [alt]="heroeSeleccionado.nombre">
+      <img class="img-fluid" class="img-logo" *ngIf="heroeSeleccionado.casa != 'DC'" src="/assets/img/marvel.png" [alt]="heroeSeleccionado.nombre">
+    </div>
+  </div>
+</div>

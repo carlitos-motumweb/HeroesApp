@@ -11,6 +11,7 @@ import { SearchComponent } from './componentes/search/search.component';
 import { HeroeComponent } from './componentes/heroe/heroe.component';
 import { FooterComponent } from './componentes/shared/footer/footer.component';
 import { AboutComponent } from './componentes/about/about.component';
+import { ResultadoBusquedaHeroeComponent } from './componentes/resultado-busqueda/resultado-busqueda.component';
 
 // Servicios
 import {HeroesService} from './servicios/heroes.service';
@@ -25,7 +26,8 @@ import { DetalleHeroeComponent } from './componentes/detalle-heroe/detalle-heroe
     HeroeComponent,
     FooterComponent,
     AboutComponent,
-    DetalleHeroeComponent
+    DetalleHeroeComponent,
+    ResultadoBusquedaHeroeComponent
   ],
   imports: [
     BrowserModule,

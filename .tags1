@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+nav	/home/carlitos/Documentos/cursos-UDEMY/Angular/SuperHeroesAPP/src/app/componentes/shared/navbar/navbar.component.html	/^<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">$/;"	function	line:1
+button	/home/carlitos/Documentos/cursos-UDEMY/Angular/SuperHeroesAPP/src/app/componentes/shared/navbar/navbar.component.html	/^  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">$/;"	function	line:2
+span	/home/carlitos/Documentos/cursos-UDEMY/Angular/SuperHeroesAPP/src/app/componentes/shared/navbar/navbar.component.html	/^    <span class="navbar-toggler-icon"><\/span>$/;"	function	line:3
+a	/home/carlitos/Documentos/cursos-UDEMY/Angular/SuperHeroesAPP/src/app/componentes/shared/navbar/navbar.component.html	/^  <a class="navbar-brand" href="#">$/;"	function	line:5
+img	/home/carlitos/Documentos/cursos-UDEMY/Angular/SuperHeroesAPP/src/app/componentes/shared/navbar/navbar.component.html	/^    <img src="\/assets\/img\/A-64.png" width="30" height="30" alt="">$/;"	function	line:6
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/SuperHeroesAPP/src/app/componentes/shared/navbar/navbar.component.html	/^  <div class="collapse navbar-collapse" id="navbarSupportedContent">$/;"	function	line:10
+ul	/home/carlitos/Documentos/cursos-UDEMY/Angular/SuperHeroesAPP/src/app/componentes/shared/navbar/navbar.component.html	/^    <ul class="navbar-nav mr-auto">$/;"	function	line:11
+li	/home/carlitos/Documentos/cursos-UDEMY/Angular/SuperHeroesAPP/src/app/componentes/shared/navbar/navbar.component.html	/^      <li class="nav-item" routerLinkActive="active">$/;"	function	line:12
+a	/home/carlitos/Documentos/cursos-UDEMY/Angular/SuperHeroesAPP/src/app/componentes/shared/navbar/navbar.component.html	/^        <a class="nav-link" [routerLink]="['home']">Home<\/a>$/;"	function	line:13
+li	/home/carlitos/Documentos/cursos-UDEMY/Angular/SuperHeroesAPP/src/app/componentes/shared/navbar/navbar.component.html	/^      <li class="nav-item" routerLinkActive="active">$/;"	function	line:15
+a	/home/carlitos/Documentos/cursos-UDEMY/Angular/SuperHeroesAPP/src/app/componentes/shared/navbar/navbar.component.html	/^        <a class="nav-link" [routerLink]="['heroe']">Heroe<\/a>$/;"	function	line:16
+li	/home/carlitos/Documentos/cursos-UDEMY/Angular/SuperHeroesAPP/src/app/componentes/shared/navbar/navbar.component.html	/^      <li class="nav-item" routerLinkActive="active">$/;"	function	line:18
+a	/home/carlitos/Documentos/cursos-UDEMY/Angular/SuperHeroesAPP/src/app/componentes/shared/navbar/navbar.component.html	/^        <a class="nav-link" [routerLink]="['about']">About...<\/a>$/;"	function	line:19
+form	/home/carlitos/Documentos/cursos-UDEMY/Angular/SuperHeroesAPP/src/app/componentes/shared/navbar/navbar.component.html	/^    <form class="form-inline my-2 my-lg-0">$/;"	function	line:22
+input	/home/carlitos/Documentos/cursos-UDEMY/Angular/SuperHeroesAPP/src/app/componentes/shared/navbar/navbar.component.html	/^      <input class="form-control mr-sm-2" type="text" placeholder="Nombre Heroe" (keydown)="buscarHeroe(texto.value)" #texto>$/;"	function	line:23
+button	/home/carlitos/Documentos/cursos-UDEMY/Angular/SuperHeroesAPP/src/app/componentes/shared/navbar/navbar.component.html	/^      <button class="btn btn-outline-success my-2 my-sm-0" type="Button" (click)="buscarHeroe(texto.value)">Buscar<\/button>$/;"	function	line:24
